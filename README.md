@@ -236,6 +236,10 @@ export class NewActions {
 
 # **Run tests**
 
+**Prerequisites**
+When Running the test through the playwright UI
+please check the Chrome checkbox in the side panel within testing/playwright to avoid confusion.
+in Settings under the playwright select the show browser for headed execution.
 1. **To Run all test in Bash**
    run the command
    npx playwright test
