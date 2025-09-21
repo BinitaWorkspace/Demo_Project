@@ -42,6 +42,10 @@ npm install
 Write-Status "Installing Playwright browsers..."
 npx playwright install
 
+# Install Playwright Test
+Write-Status "Installing Playwright Test..."
+npm install -D @playwright/test
+
 # Verify installation
 Write-Status "Verifying installation..."
 npm run test --version

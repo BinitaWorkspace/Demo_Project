@@ -18,8 +18,10 @@ DEMO_PROJECT/
 │       ├── BrowserUtils.ts
 │       └── Logger.ts
 ├── tests/                  # Test Specs
-│   └── rentalCoverLanding.spec.ts
-├── test-results/           # Screenshots, videos, traces
+│   └── rentalCoverLanding.spec.ts 
+├── test-results/       #Please create this folder and sub folders before execution 
+│      └──screenshot    # Screenshots, traces
+│      └──rentalCoverLanding-RentalC-bf0dc-fy-confirmation-JIRA-ticket-Chrome 
 ├── .env
 ├── index.html
 ├── package.json
@@ -261,7 +263,11 @@ in Settings under the playwright select the show browser for headed execution.
 
 # Bugs Found
 
-1. I have observed is sometime when the automation scripts run the country of residence changes to United States though it should be Australia. May be its a glitch because I tried to replicate it manually but could not replicate the bug.
+1. Most Important thing is I have noticed a HYDRATION ERROR where the server rendered html does not match the client side react tree. Its seen in console as Uncaught Minified React error #423 or #418
+what is the result of this error: 1. content flickers Happening
+                                  2. Layout shifts
+                                  3. COnsole Error
+                                  4. Broken Interactivity
 
-
+2. I have observed is sometime when the automation scripts run the country of residence changes to United States though it should be Australia. May be its a glitch because I tried to replicate it manually but could not replicate the bug. Now the cause may be the Hydration error.
 

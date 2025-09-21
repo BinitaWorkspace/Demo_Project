@@ -40,10 +40,7 @@ npx playwright install
 
 # Install Playwright/test
 print_status "Installing Playwright/test..."
-if ! npx playwright --version &> /dev/null; then
-    print_warning "Playwright is not installed. Installing @playwright/test locally..."
-    npm install -D @playwright/test
-fi
+npm install -D @playwright/test
 
 # Verify installation
 print_status "Node version: $(node -v)"
