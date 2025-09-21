@@ -257,8 +257,7 @@ export class NewActions {
 
 # Bugs Found
 
-1. The Vehicle selection has a bug. it says it has option for caravan motor homes but the dropdown only has a car option nothing else. The image will be attached in the email.
-2. Another Issue that I have observed is sometime when the automation scripts run the country of residence changes to United States though it should be Australia. May be its a glitch because I tried to replicate it manually but could not replicate the bug.
+1. I have observed is sometime when the automation scripts run the country of residence changes to United States though it should be Australia. May be its a glitch because I tried to replicate it manually but could not replicate the bug.
 
 
 
